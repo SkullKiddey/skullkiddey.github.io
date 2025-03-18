@@ -67,7 +67,9 @@ body {
 
 .colonne1{
     width: 400px;
+    flex: 1 1 400px;
 }
 .colonne2{
     width: 400px;
+    flex: 1 1 400px;
 }

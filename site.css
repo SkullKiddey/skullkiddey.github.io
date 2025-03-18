@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color: white;
+    /* Pour que le texte soit visible sur le fond noir */
+    align-items: center;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    background-image: url("images/wallpaper.png");
+    background-size: cover;
+
+}
+
+.largeur {
+    width: 800px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.titre {
+    font-size: 50px;
+    padding-left: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.texte {
+    line-height: 2.5;
+}
+
+.bouton {
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+}
+
+.image {
+    margin-top: 10px;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo {
+    height: 40px; /* Ajuste la hauteur selon tes besoins */
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.colonne1{
+    width: 400px;
+}
+.colonne2{
+    width: 400px;
+}

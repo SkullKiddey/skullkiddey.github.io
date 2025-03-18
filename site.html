@@ -1,87 +1,37 @@
 <html>
-    <head>
-        <title>Myster Quest</title>
-        <style>
-            body {
-                background-color: black;
-                color: white; /* Pour que le texte soit visible sur le fond noir */
-                align-items: center;
-                display: flex;
-                font-family: 'Nunito', sans-serif;
-                background-image: url("images/wallpaper.png");
-                background-size: cover;
-                
-            }
-            .largeur{
-                width:800px;
-            }
-            .align-right{
-                text-align: right;
-            }
-            .center{
-                margin-right: auto;
-                margin-left: auto;
-            }
-            .titre{
-                font-size: 50px; 
-                padding-left: 20px;
-                font-family: 'Alegreya Sans', sans-serif;
-            }
-            .inline{
-                display: inline-block;
-                vertical-align: middle; 
-            }
-            .texte{
-                line-height: 2.5;
-            }
-            .bouton{
-                background-color: white;
-                color: black;
-                width: 350px;
-                height: 50px;
-                border-radius: 30px;
-                font-weight: bold;
-                align-items: center;
-                justify-content: center;
-                display: flex;
-                margin-top: 70px;
-            }
-            .image{
-                margin-top: 10px;
-            }
 
-           
-        </style>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<head>
+    <title>Myster Quest</title>
 
 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="site.css" rel="stylesheet">
 
-    </head>
 
-    <body>
-        <table class="largeur center">
-            <td>
-               <div>
-                    <div class="inline"><img src="images/logo.png"></img></div>
-                    <div class="inline "> 
-                        <h1 class="titre"> Myster Quest</h1>
-                    </div> 
-               </div>    
-                <div class="texte">
-                    Un escape-game a la maison ! </br>
-                    📱Servez-vous de votre téléphone pour avancer</br>
-                    👥 jouez en équipe de 2 à 7 joueurs</br>
-                    ⏳ Amusez-vous pendant 60 minutes</br>
-                    <img src="images/apple.png"></img> </br>
-                <img class="image" src="images/playstore.png"></img> 
-                   <div class="bouton"> Télécharger </div>
-                </div>
-            </td>
-            <td  class="align-right">
-                <img  src="images/iPhone15.png"></img> 
-            </td>
-        </table> 
-    </body>
+</head>
+
+<body>
+    <div class="largeur center table">
+        <div class="colonne1">
+            <div class="inline ">
+                <h1 class="titre"> Myster Quest</h1>
+                <img src="images/logo.png" class="logo">
+            </div>
+            <div class="texte">
+                Un escape-game a la maison ! </br>
+                📱Servez-vous de votre téléphone pour avancer</br>
+                👥 jouez en équipe de 2 à 7 joueurs</br>
+                ⏳ Amusez-vous pendant 60 minutes</br>
+                <img src="images/apple.png"></img> </br>
+                <img class="image" src="images/playstore.png"></img>
+                <div class="bouton"> Télécharger </div>
+            </div>
+        </div>
+        <div class="align-right colonne2">
+            <img src="images/iPhone15.png"></img>
+        </div>
+    </div>
+</body>
+
 </html>
- 

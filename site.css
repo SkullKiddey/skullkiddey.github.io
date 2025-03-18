@@ -73,3 +73,10 @@ body {
     width: 400px;
     flex: 1 1 400px;
 }
+
+ /* Media query pour les écrans plus petits */
+ @media (max-width: 800px) {
+    .col-1, .col-2 {
+      flex: 1 1 100%; /* Prend toute la largeur disponible */
+    }
+  }

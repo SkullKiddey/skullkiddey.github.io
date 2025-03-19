@@ -86,6 +86,7 @@ body {
     }
     .bouton{
         width: 100%;
+        margin-top: 20px;
     }
     .table{
         flex-direction: column-reverse;
@@ -96,5 +97,8 @@ body {
     }
     body{
         align-items: end;
+    }
+    .logo{
+        display: none;
     }
 }

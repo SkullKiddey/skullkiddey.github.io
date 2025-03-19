@@ -67,16 +67,7 @@ body {
 
 .colonne1{
     width: 400px;
-    flex: 1 1 400px;
 }
 .colonne2{
     width: 400px;
-    flex: 1 1 400px;
 }
-
- /* Media query pour les écrans plus petits */
- @media (max-width: 800px) {
-    .colonne1, .colonne2 {
-      flex: 1 1 100%; /* Prend toute la largeur disponible */
-    }
-  }

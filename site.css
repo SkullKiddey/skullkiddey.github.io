@@ -44,11 +44,11 @@ body {
     width: 350px;
     height: 50px;
     border-radius: 30px;
-    font-weight: normal;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-top: 70px;
+    font-weight: 500;
 }
 
 .image {
@@ -75,6 +75,10 @@ body {
     font-size: 32px;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.logo_black{
+    height: 27px;
+    margin-right: 8px;
+}
 
 @media (max-width: 800px){
     .colonne2{
@@ -87,6 +91,7 @@ body {
     .bouton{
         width: 100%;
         margin-top: 20px;
+        height: 65px;
     }
     .table{
         flex-direction: column-reverse;
@@ -112,4 +117,5 @@ body {
     .soustitre{
         line-height: 0;
     }
+    
 }

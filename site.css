@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    /* Pour que le texte soit visible sur le fond noir */
+    
     align-items: center;
     display: flex;
     font-family: 'Nunito', sans-serif;
@@ -44,7 +44,7 @@ body {
     width: 350px;
     height: 50px;
     border-radius: 30px;
-    font-weight: bold;
+    font-weight: normal;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -60,14 +60,41 @@ body {
     flex-wrap: wrap;
 }
 .logo {
-    height: 40px; /* Ajuste la hauteur selon tes besoins */
+    height: 40px;
     vertical-align: middle;
     margin-left: 10px;
+    height: 85px;
+    width: 70px;
 }
 
-.colonne1{
+.colonne1, .colonne2 {
     width: 400px;
 }
-.colonne2{
-    width: 400px;
+
+.soustitre{
+    font-size: 32px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+@media (max-width: 800px){
+    .colonne2{
+        width: 160px;
+    }
+    .colonne1{
+        width : 100%;
+
+    }
+    .bouton{
+        width: 100%;
+    }
+    .table{
+        flex-direction: column-reverse;
+
+    } 
+    .iphone{
+        width: 160px;
+    }
+    body{
+        align-items: end;
+    }
 }

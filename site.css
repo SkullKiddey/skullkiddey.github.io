@@ -79,7 +79,21 @@ body {
     height: 27px;
     margin-right: 8px;
 }
+.connexion{
+    text-align: center;
+    width: 350px;
+    margin-top: 10px;
+    color: white;
+}
+.connexion a{
+    color: white;
+}
+.whitebox{
+    background-color: white;
+    width: 326px;
+    height: 326px;
 
+}
 @media (max-width: 800px){
     .colonne2{
         width: 160px;

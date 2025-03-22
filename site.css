@@ -99,6 +99,7 @@ body {
     border-radius: 20px;
     color: black;
     text-align: center;
+    line-height: 1;
 
 }
 .login{
@@ -119,7 +120,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: 50px;
+    margin-top: 1px;
     font-weight: 500;
     width: 300px;    
 }
@@ -135,6 +136,11 @@ input{
 }
 .password a{
     color: black;
+    margin-top: 10px;
+
+}
+.resetpsw .bouton{
+    margin-top: 20;
 }
 
 @media (max-width: 800px){

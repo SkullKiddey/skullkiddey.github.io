@@ -36,7 +36,7 @@
                 <input type="text"></input>
             </div>
             <div class="spacer"></div>
-            <div class="link"><a href="login.html"> Se connecter</a></div>
+            <div class="link"><a href="login.php"> Se connecter</a></div>
             <div class="bouton center"> 
                 S'inscrire
             </div>

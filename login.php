@@ -31,9 +31,9 @@
                 Mot de passe<br>
                 <input type="text"></input>
             </div>
-            <div class="link"><a href="resetpsw.html">Mot de passe oublié</a></div>
+            <div class="link"><a href="resetpsw.php">Mot de passe oublié</a></div>
             <div class="spacer"></div>
-            <div class="link"><a href="inscription.html">Inscription</a></div>
+            <div class="link"><a href="inscription.php">Inscription</a></div>
             <div class="bouton center"> Connexion
 
             </div>

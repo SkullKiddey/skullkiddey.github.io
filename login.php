@@ -20,27 +20,24 @@
             <img src="images/logo.png" alt="Logo">
             <h1>Myster Quest</h1>
         </div>
-        <div class="whitebox center">
-            <img class="avatar center" src="images/avatar.png" alt="avatar">
-
-            <div class="field center">
-                Email ID<br>
-                <input type="text"></input>
+        <form action="account.php" method="GET">
+            <div class="whitebox center">
+                <img class="avatar center" src="images/avatar.png" alt="avatar">
+                    <div class="field center">
+                        Email ID<br>
+                        <input name="email" type="text"></input>
+                    </div>
+                    <div class="field center">
+                        Mot de passe<br>
+                        <input name="password" type="password"></input>
+                    </div>
+                    <div class="link"><a href="resetpsw.php">Mot de passe oublié</a></div>
+                    <div class="spacer"></div>
+                    <div class="link"><a href="inscription.php">Inscription</a></div>
+                    <input type="submit" value="Connexion" class="bouton center"></input>
             </div>
-            <div class="field center">
-                Mot de passe<br>
-                <input type="text"></input>
-            </div>
-            <div class="link"><a href="resetpsw.php">Mot de passe oublié</a></div>
-            <div class="spacer"></div>
-            <div class="link"><a href="inscription.php">Inscription</a></div>
-            <div class="bouton center"> Connexion
-
-            </div>
-
-        </div>
+        </form>
     </div>
 </body>
-
 
 </html>

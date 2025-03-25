@@ -76,7 +76,7 @@ body {
 }
 
 .account .colonne1, .account .colonne2 {
-    width: fit-content;
+    width: 50%;
 }
 
 .soustitre{
@@ -107,6 +107,7 @@ body {
     display: flex;
     flex-direction: column;
     gap:10px;
+    padding: 20px;
 
 }
 .reset_password .whitebox {
@@ -166,25 +167,37 @@ body {
 
 .tickets{
     width:138px;
+    margin-left: 20px;
 }
-
-.blackbloxe{
-    background-color: black;
-    color: rgb(0, 0, 0);
-    
-    align-items: center;
-    display: flex;
-    font-family: 'Nunito', sans-serif;
-    background-image: url("images/wallpaper.png");
-    background-size: cover;
-}
-.logout{
+.logout a {
     color: red;
 }
 .account .soustitre h5{
     margin-top: 0px;
     margin-bottom: 6px;
 } 
+.account .table{
+    width: 100%;
+}
+.table2{
+    height: 100%;
+
+}
+.table2 .colonne1, .table2 .colonne2{
+    display: flex;
+    align-items: center;
+}
+.account{
+    width: 100%;
+}
+.account .titre{
+    width: 700px;
+}
+.blackbox{
+    width:138px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
 @media (max-width: 800px){
     .colonne2{

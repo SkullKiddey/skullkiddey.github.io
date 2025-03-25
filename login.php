@@ -20,7 +20,7 @@
             <img src="images/logo.png" alt="Logo">
             <h1>Myster Quest</h1>
         </div>
-        <form action="account.php" method="GET">
+        <form action="account.php" method="POST">
             <div class="whitebox center">
                 <img class="avatar center" src="images/avatar.png" alt="avatar">
                     <div class="field center">
